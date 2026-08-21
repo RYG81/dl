@@ -42,9 +42,9 @@
         }
       ],
       "properties": {
+        "Node name for S&R": "VAEDecode",
         "cnr_id": "comfy-core",
-        "ver": "0.30.0",
-        "Node name for S&R": "VAEDecode"
+        "ver": "0.30.0"
       }
     },
     {
@@ -84,9 +84,9 @@
         }
       ],
       "properties": {
+        "Node name for S&R": "CreateVideo",
         "cnr_id": "comfy-core",
-        "ver": "0.30.0",
-        "Node name for S&R": "CreateVideo"
+        "ver": "0.30.0"
       },
       "widgets_values": [
         24,
@@ -211,9 +211,9 @@
         }
       ],
       "properties": {
+        "Node name for S&R": "BasicGuider",
         "cnr_id": "comfy-core",
-        "ver": "0.30.0",
-        "Node name for S&R": "BasicGuider"
+        "ver": "0.30.0"
       }
     },
     {
@@ -286,9 +286,9 @@
         }
       ],
       "properties": {
+        "Node name for S&R": "UNETLoader",
         "cnr_id": "comfy-core",
         "ver": "0.30.0",
-        "Node name for S&R": "UNETLoader",
         "models": [
           {
             "name": "minimax_h3_ref2va_pruned_int8_convrot.safetensors",
@@ -331,9 +331,9 @@
         }
       ],
       "properties": {
+        "Node name for S&R": "VAELoader",
         "cnr_id": "comfy-core",
         "ver": "0.30.0",
-        "Node name for S&R": "VAELoader",
         "models": [
           {
             "name": "minimax_h3_video_vae_fp16.safetensors",
@@ -380,9 +380,9 @@
         }
       ],
       "properties": {
+        "Node name for S&R": "BasicScheduler",
         "cnr_id": "comfy-core",
-        "ver": "0.30.0",
-        "Node name for S&R": "BasicScheduler"
+        "ver": "0.30.0"
       },
       "widgets_values": [
         "simple",
@@ -420,9 +420,9 @@
         }
       ],
       "properties": {
+        "Node name for S&R": "KSamplerSelect",
         "cnr_id": "comfy-core",
-        "ver": "0.30.0",
-        "Node name for S&R": "KSamplerSelect"
+        "ver": "0.30.0"
       },
       "widgets_values": [
         "er_sde"
@@ -462,9 +462,9 @@
         }
       ],
       "properties": {
+        "Node name for S&R": "LoraLoaderModelOnly",
         "cnr_id": "comfy-core",
-        "ver": "0.33.0",
-        "Node name for S&R": "LoraLoaderModelOnly"
+        "ver": "0.33.0"
       },
       "widgets_values": [
         "minimax_h3_ref2v_lightx2v_turbo_4step_v0.1_resized_avg_rank_20_bf16.safetensors",
@@ -557,56 +557,9 @@
         }
       ],
       "properties": {
+        "Node name for S&R": "SamplerCustomAdvanced",
         "cnr_id": "comfy-core",
-        "ver": "0.30.0",
-        "Node name for S&R": "SamplerCustomAdvanced"
-      }
-    },
-    {
-      "id": 128,
-      "type": "CLIPLoader",
-      "pos": [
-        -1670.5114836924547,
-        4228.1249586311005
-      ],
-      "size": [
-        438.6212737969886,
-        108.95455090344421
-      ],
-      "flags": {},
-      "order": 6,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "CLIP",
-          "type": "CLIP",
-          "links": [
-            272
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.30.0",
-        "Node name for S&R": "CLIPLoader",
-        "models": [
-          {
-            "name": "qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
-            "url": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
-            "directory": "text_encoders"
-          }
-        ]
-      },
-      "widgets_values": [
-        "qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
-        "minimax",
-        "default"
-      ],
-      "widgets_values_named": {
-        "clip_name": "qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
-        "type": "minimax",
-        "device": "default"
+        "ver": "0.30.0"
       }
     },
     {
@@ -623,7 +576,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 7,
+      "order": 6,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -648,49 +601,6 @@
       },
       "color": "#322",
       "bgcolor": "#533"
-    },
-    {
-      "id": 120,
-      "type": "VAELoader",
-      "pos": [
-        -1655.9377898186676,
-        4419.319920508766
-      ],
-      "size": [
-        423.0376731620984,
-        58.73867999088907
-      ],
-      "flags": {},
-      "order": 8,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "VAE",
-          "type": "VAE",
-          "links": [
-            320
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.30.0",
-        "Node name for S&R": "VAELoader",
-        "models": [
-          {
-            "name": "minimax_h3_audio_vae_fp32.safetensors",
-            "url": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/vae/minimax_h3_audio_vae_fp32.safetensors",
-            "directory": "vae"
-          }
-        ]
-      },
-      "widgets_values": [
-        "minimax_h3_audio_vae_fp32.safetensors"
-      ],
-      "widgets_values_named": {
-        "vae_name": "minimax_h3_audio_vae_fp32.safetensors"
-      }
     },
     {
       "id": 163,
@@ -733,9 +643,9 @@
         }
       ],
       "properties": {
+        "Node name for S&R": "MelBandRoFormerSampler",
         "cnr_id": "comfyui-melbandroformer",
-        "ver": "1.0.2",
-        "Node name for S&R": "MelBandRoFormerSampler"
+        "ver": "1.0.2"
       }
     },
     {
@@ -750,7 +660,7 @@
         58
       ],
       "flags": {},
-      "order": 9,
+      "order": 7,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -763,9 +673,9 @@
         }
       ],
       "properties": {
+        "Node name for S&R": "MelBandRoFormerModelLoader",
         "cnr_id": "comfyui-melbandroformer",
-        "ver": "1.0.2",
-        "Node name for S&R": "MelBandRoFormerModelLoader"
+        "ver": "1.0.2"
       },
       "widgets_values": [
         "MelBandRoformer_fp32.safetensors"
@@ -775,54 +685,11 @@
       }
     },
     {
-      "id": 157,
-      "type": "SetNode",
-      "pos": [
-        -1464.8295781840015,
-        5042.557362108903
-      ],
-      "size": [
-        210,
-        60
-      ],
-      "flags": {
-        "collapsed": true
-      },
-      "order": 23,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "AUDIO",
-          "type": "AUDIO",
-          "link": 331
-        }
-      ],
-      "outputs": [
-        {
-          "name": "AUDIO",
-          "type": "AUDIO",
-          "links": null
-        }
-      ],
-      "title": "Set_audio",
-      "properties": {
-        "Node name for S&R": "SetNode",
-        "aux_id": "kijai/ComfyUI-KJNodes",
-        "previousName": "audio"
-      },
-      "widgets_values": [
-        "audio"
-      ],
-      "widgets_values_named": {
-        "Constant": "audio"
-      }
-    },
-    {
       "id": 156,
       "type": "ComfyMathExpression",
       "pos": [
-        -2077.784072734074,
-        5105.568469250327
+        -2070,
+        5130
       ],
       "size": [
         225,
@@ -868,9 +735,9 @@
         }
       ],
       "properties": {
+        "Node name for S&R": "ComfyMathExpression",
         "cnr_id": "comfy-core",
-        "ver": "0.30.0",
-        "Node name for S&R": "ComfyMathExpression"
+        "ver": "0.30.0"
       },
       "widgets_values": [
         "round(a / 24 * 40) / 40"
@@ -883,15 +750,15 @@
       "id": 160,
       "type": "Note",
       "pos": [
-        -2087.3868839395313,
-        4964.091433050717
+        -2080,
+        4990
       ],
       "size": [
         225.44420493615917,
         88
       ],
       "flags": {},
-      "order": 10,
+      "order": 8,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -910,7 +777,7 @@
       "type": "ComfyMathExpression",
       "pos": [
         -2330,
-        5220
+        5250
       ],
       "size": [
         225,
@@ -958,9 +825,9 @@
         }
       ],
       "properties": {
+        "Node name for S&R": "ComfyMathExpression",
         "cnr_id": "comfy-core",
-        "ver": "0.30.0",
-        "Node name for S&R": "ComfyMathExpression"
+        "ver": "0.30.0"
       },
       "widgets_values": [
         "max(5, round(a * 24)) + (5 - (max(5, round(a * 24)) % 17)) % 17"
@@ -970,67 +837,18 @@
       }
     },
     {
-      "id": 115,
-      "type": "ResolutionSelector",
-      "pos": [
-        -1489.279828055582,
-        5093.421819380088
-      ],
-      "size": [
-        271.2263253199287,
-        126
-      ],
-      "flags": {},
-      "order": 11,
-      "mode": 0,
-      "showAdvanced": false,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "width",
-          "type": "INT",
-          "links": [
-            276
-          ]
-        },
-        {
-          "name": "height",
-          "type": "INT",
-          "links": [
-            277
-          ]
-        }
-      ],
-      "title": "Resolution Selector (Size)",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.30.0",
-        "Node name for S&R": "ResolutionSelector"
-      },
-      "widgets_values": [
-        "16:9 (Widescreen)",
-        1,
-        32
-      ],
-      "widgets_values_named": {
-        "aspect_ratio": "16:9 (Widescreen)",
-        "megapixels": 1,
-        "multiple": 32
-      }
-    },
-    {
       "id": 161,
       "type": "Note",
       "pos": [
         -2340,
-        5080
+        5110
       ],
       "size": [
         225.44420493615917,
         88
       ],
       "flags": {},
-      "order": 12,
+      "order": 9,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -1076,9 +894,9 @@
         }
       ],
       "properties": {
+        "Node name for S&R": "PathchSageAttentionKJ",
         "cnr_id": "comfyui-kjnodes",
-        "ver": "1.4.4",
-        "Node name for S&R": "PathchSageAttentionKJ"
+        "ver": "1.4.4"
       },
       "widgets_values": [
         "auto",
@@ -1087,44 +905,6 @@
       "widgets_values_named": {
         "sage_attention": "auto",
         "allow_compile": false
-      }
-    },
-    {
-      "id": 129,
-      "type": "RandomNoise",
-      "pos": [
-        -660,
-        4040
-      ],
-      "size": [
-        245.84733237025569,
-        82
-      ],
-      "flags": {},
-      "order": 13,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "NOISE",
-          "type": "NOISE",
-          "links": [
-            253
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.30.0",
-        "Node name for S&R": "RandomNoise"
-      },
-      "widgets_values": [
-        7777,
-        "fixed"
-      ],
-      "widgets_values_named": {
-        "noise_seed": 7777,
-        "control_after_generate": "fixed"
       }
     },
     {
@@ -1171,6 +951,49 @@
       }
     },
     {
+      "id": 157,
+      "type": "SetNode",
+      "pos": [
+        -1460,
+        5070
+      ],
+      "size": [
+        210,
+        60
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 23,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "AUDIO",
+          "type": "AUDIO",
+          "link": 331
+        }
+      ],
+      "outputs": [
+        {
+          "name": "AUDIO",
+          "type": "AUDIO",
+          "links": null
+        }
+      ],
+      "title": "Set_audio",
+      "properties": {
+        "Node name for S&R": "SetNode",
+        "aux_id": "kijai/ComfyUI-KJNodes",
+        "previousName": "audio"
+      },
+      "widgets_values": [
+        "audio"
+      ],
+      "widgets_values_named": {
+        "Constant": "audio"
+      }
+    },
+    {
       "id": 136,
       "type": "MiniMaxH3ReferenceToVideo",
       "pos": [
@@ -1178,8 +1001,8 @@
         4527.36211725719
       ],
       "size": [
-        342.99717646119734,
-        760.7458828240751
+        343.8909792501736,
+        793.8146085763983
       ],
       "flags": {},
       "order": 25,
@@ -1284,9 +1107,9 @@
         }
       ],
       "properties": {
+        "Node name for S&R": "MiniMaxH3ReferenceToVideo",
         "cnr_id": "comfy-core",
-        "ver": "0.30.0",
-        "Node name for S&R": "MiniMaxH3ReferenceToVideo"
+        "ver": "0.30.0"
       },
       "widgets_values": [
         "subject_definitions:\n<Picture 1> is the first frame of [Shot 1]. <Subject 1> is the primary subject in <Picture 1>. <Audio 1> is the synchronized vocal and musical track performed by <Subject 1> (S1).\n\nsummary:\n[keyframe completion + audio reuse] The target video begins from <Picture 1> and shows <Subject 1> performing, using <Audio 1> as the complete final audio track. The shot maintains the exact initial camera distance, scale, and framing of <Picture 1> throughout.\n\nretention_analysis:\n<Picture 1> ([Shot 1] first frame): fully_preserved - strict spatial lock.\n<Subject 1> (appears in [Shot 1]): fully_preserved - <Subject 1>'s spatial footprint, relative size within the frame, visual identity, attire, and posture match <Picture 1> exactly.\n<Audio 1>: fully_copy - <Audio 1> is reused 1:1 as the target video's complete final audio track.\n\ndetailed_description:\n[Shot 1] The shot begins from <Picture 1> with a completely static camera rig. The camera position, field of view (FOV), focal length, and subject-to-frame ratio are permanently locked to match <Picture 1>. <Subject 1> (S1) sings with synchronized lip articulation matching <Audio 1>. <Subject 1> performs naturally with head sways and subtle body movements.\n\noverall_soundscape:\nThe copied audio track from <Audio 1> serves as the complete audio signal.\n\nnon_diegetic_music:\n<Audio 1> is directly reused as the complete musical backing and audience-only score.",
@@ -1304,11 +1127,231 @@
       }
     },
     {
+      "id": 120,
+      "type": "VAELoader",
+      "pos": [
+        -1664.6670807227395,
+        4412.605057707016
+      ],
+      "size": [
+        423.0376731620984,
+        58.73867999088907
+      ],
+      "flags": {},
+      "order": 10,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "VAE",
+          "type": "VAE",
+          "links": [
+            320
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VAELoader",
+        "cnr_id": "comfy-core",
+        "ver": "0.30.0",
+        "models": [
+          {
+            "name": "minimax_h3_audio_vae_fp32.safetensors",
+            "url": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/vae/minimax_h3_audio_vae_fp32.safetensors",
+            "directory": "vae"
+          }
+        ]
+      },
+      "widgets_values": [
+        "minimax_h3_audio_vae_fp32.safetensors"
+      ],
+      "widgets_values_named": {
+        "vae_name": "minimax_h3_audio_vae_fp32.safetensors"
+      }
+    },
+    {
+      "id": 128,
+      "type": "CLIPLoader",
+      "pos": [
+        -1667.825579556025,
+        4209.994823943343
+      ],
+      "size": [
+        438.6212737969886,
+        108.95455090344421
+      ],
+      "flags": {},
+      "order": 11,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [
+            272
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPLoader",
+        "cnr_id": "comfy-core",
+        "ver": "0.30.0",
+        "models": [
+          {
+            "name": "qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+            "url": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+            "directory": "text_encoders"
+          }
+        ]
+      },
+      "widgets_values": [
+        "qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+        "minimax",
+        "default"
+      ],
+      "widgets_values_named": {
+        "clip_name": "qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+        "type": "minimax",
+        "device": "default"
+      }
+    },
+    {
+      "id": 137,
+      "type": "LoadImage",
+      "pos": [
+        -1657.278892628265,
+        4524.4691686486985
+      ],
+      "size": [
+        425.34722029180625,
+        326
+      ],
+      "flags": {},
+      "order": 12,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            316
+          ]
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoadImage",
+        "cnr_id": "comfy-core",
+        "ver": "0.30.0"
+      },
+      "widgets_values": [
+        "image (1).jpg",
+        "image"
+      ],
+      "widgets_values_named": {
+        "image": "image (1).jpg",
+        "upload": "image"
+      }
+    },
+    {
+      "id": 129,
+      "type": "RandomNoise",
+      "pos": [
+        -660,
+        4040
+      ],
+      "size": [
+        245.84733237025569,
+        82
+      ],
+      "flags": {},
+      "order": 13,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "NOISE",
+          "type": "NOISE",
+          "links": [
+            253
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "RandomNoise",
+        "cnr_id": "comfy-core",
+        "ver": "0.30.0"
+      },
+      "widgets_values": [
+        603748906791096,
+        "randomize"
+      ],
+      "widgets_values_named": {
+        "noise_seed": 603748906791096,
+        "control_after_generate": "randomize"
+      }
+    },
+    {
+      "id": 115,
+      "type": "ResolutionSelector",
+      "pos": [
+        -1480,
+        5120
+      ],
+      "size": [
+        271.2263253199287,
+        126
+      ],
+      "flags": {},
+      "order": 14,
+      "mode": 0,
+      "showAdvanced": false,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "width",
+          "type": "INT",
+          "links": [
+            276
+          ]
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "links": [
+            277
+          ]
+        }
+      ],
+      "title": "Resolution Selector (Size)",
+      "properties": {
+        "Node name for S&R": "ResolutionSelector",
+        "cnr_id": "comfy-core",
+        "ver": "0.30.0"
+      },
+      "widgets_values": [
+        "16:9 (Widescreen)",
+        0.5,
+        32
+      ],
+      "widgets_values_named": {
+        "aspect_ratio": "16:9 (Widescreen)",
+        "megapixels": 0.5,
+        "multiple": 32
+      }
+    },
+    {
       "id": 171,
       "type": "VHS_LoadAudioUpload",
       "pos": [
-        -1833.2953945354416,
-        5011.4206910370585
+        -1830,
+        5040
       ],
       "size": [
         321.4395051407646,
@@ -1344,33 +1387,33 @@
         }
       ],
       "properties": {
+        "Node name for S&R": "VHS_LoadAudioUpload",
         "cnr_id": "comfyui-videohelpersuite",
-        "ver": "1.7.9",
-        "Node name for S&R": "VHS_LoadAudioUpload"
+        "ver": "1.7.9"
       },
       "widgets_values": {
-        "audio": "audio.mp3",
-        "start_time": 0,
+        "audio": "song.mp3",
+        "start_time": 29.5,
         "duration": 0,
         "audiopreview": {
           "params": {
-            "start_time": 0,
+            "start_time": 29.5,
             "duration": 0,
-            "filename": "audio.mp3",
+            "filename": "song.mp3",
             "type": "input"
           }
         }
       },
       "widgets_values_named": {
-        "audio": "audio.mp3",
-        "start_time": 0,
+        "audio": "song.mp3",
+        "start_time": 29.5,
         "duration": 0,
         "choose audio to upload": null,
         "audiopreview": {
           "params": {
-            "start_time": 0,
+            "start_time": 29.5,
             "duration": 0,
-            "filename": "audio.mp3",
+            "filename": "song.mp3",
             "type": "input"
           }
         }
@@ -1381,14 +1424,14 @@
       "type": "PrimitiveFloat",
       "pos": [
         -2620,
-        5220
+        5250
       ],
       "size": [
         270,
         70
       ],
       "flags": {},
-      "order": 14,
+      "order": 15,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1402,58 +1445,15 @@
       ],
       "title": "Float (Duration)",
       "properties": {
+        "Node name for S&R": "PrimitiveFloat",
         "cnr_id": "comfy-core",
-        "ver": "0.30.0",
-        "Node name for S&R": "PrimitiveFloat"
+        "ver": "0.30.0"
       },
       "widgets_values": [
-        8
+        5
       ],
       "widgets_values_named": {
-        "value": 8
-      }
-    },
-    {
-      "id": 137,
-      "type": "LoadImage",
-      "pos": [
-        -1657.278892628265,
-        4524.4691686486985
-      ],
-      "size": [
-        425.34722029180625,
-        326
-      ],
-      "flags": {},
-      "order": 15,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            316
-          ]
-        },
-        {
-          "name": "MASK",
-          "type": "MASK",
-          "links": null
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.30.0",
-        "Node name for S&R": "LoadImage"
-      },
-      "widgets_values": [
-        "image.png",
-        "image"
-      ],
-      "widgets_values_named": {
-        "image": "image.png",
-        "upload": "image"
+        "value": 5
       }
     }
   ],
@@ -1703,10 +1703,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.6725068811910303,
+      "scale": 0.7397575693101343,
       "offset": [
-        2505.8837681964797,
-        -3431.4065330004987
+        2916.5352921079952,
+        -3827.938758866452
       ]
     },
     "frontendVersion": "1.49.6",
