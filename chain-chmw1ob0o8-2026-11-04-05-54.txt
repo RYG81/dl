@@ -1,0 +1,45 @@
+Chain run chmw1ob0o8 · 4 prompts
+
+=== Scene 1 of 4 ===
+integrated_multimodal_description: Shot on a smartphone, 24mm lens, vertical 9:16, a 10-second, 2-shot sequence. The lighting is a mix of soft window daylight and vibrant purple and cyan LED strips from the PC setup, creating a punchy gaming aesthetic with a shallow depth of field. A 23-year-old Indian female gaming influencer (S1) with a matte skin finish and soft highlights on her cheekbones is in her bedroom; behind her is a shelf of game titles and a high-end desktop PC.
+
+[Shot 1] The camera holds a static shot, locked off, a medium frame at chest height. The influencer (S1) is leaned forward, eyes locked on the screen off-camera, her fingers moving rapidly on a gaming mouse and keyboard. Suddenly, she gasps, her eyes widening as she slams her hand onto the desk in a burst of victory, a wide smile breaking across her face.
+
+[Shot 2] At 00:05.000, the camera cuts to a closer medium shot, still locked off. She turns her head to look directly into the lens, her expression bright and energetic. She says: <d>[English] I was playing a new game on Jio Games. And wow, this game is intense and engaging!</d> She finishes the sentence with a small, genuine laugh, holding a beaming smile as she looks into the camera.
+
+overall_soundscape: The rapid, rhythmic clicking of a mechanical gaming keyboard and mouse, a sharp thud of a palm hitting the desk, a sharp intake of breath, and a light, natural laugh. Low room tone with a faint hum from the PC fans.
+
+non_diegetic_music: A subtle electronic synth underscore with a steady, low-tempo beat and a light high-frequency shimmer that swells slightly during the win.
+
+=== Scene 2 of 4 ===
+integrated_multimodal_description: Shot on a smartphone, 24mm lens, vertical 9:16, a 10-second, 2-shot sequence. The lighting is a mix of soft window daylight and vibrant purple and cyan LED strips from the PC setup, creating a punchy gaming aesthetic with a shallow depth of field and a clean, honest phone grade. A 23-year-old Indian female gaming influencer (S1) with a matte skin finish and soft highlights on her cheekbones is in her bedroom; behind her is a shelf of game titles and a high-end desktop PC.
+
+[Shot 1] The camera holds a static shot, locked off, a closer medium frame at chest height. The influencer (S1) continues looking directly into the lens with an energetic expression, her hands moving in small, descriptive gestures to emphasize her words. She says: <d>[English] Neon Rift is incredible. The open-world exploration is so fluid, <scenetrans>and the character skill trees are deep.</d>
+
+[Shot 2] At 00:04.286, the camera cuts to a slightly wider medium shot, still locked off. She continues her explanation, her voice enthusiastic. She says: <scenetrans>[English] and the multiplayer integration is seamless. <d>[English] That's why it's just so engaging to play!</d> As she finishes the sentence, she gestures with an open palm toward her glowing PC setup behind her, holding the pose as the clip ends.
+
+overall_soundscape: Low room tone with the steady, faint whir of PC cooling fans. Soft fabric rustle as she gestures with her arms.
+
+non_diegetic_music: A subtle electronic synth underscore with a steady, low-tempo beat and a light high-frequency shimmer, maintaining a consistent volume.
+
+=== Scene 3 of 4 ===
+integrated_multimodal_description: A 10-second, 2-shot sequence shot on a smartphone, 24mm lens, vertical 9:16, with a clean honest phone grade. The lighting is a mix of soft window daylight and vibrant purple and cyan LED strips from the PC setup, creating a punchy gaming aesthetic with a shallow depth of field. A 23-year-old Indian female gaming influencer (S1) with a matte skin finish and soft highlights on her cheekbones is in her bedroom; behind her is a shelf of game titles and a high-end desktop PC.
+
+[Shot 1] The camera holds a static shot, locked off, a medium frame at chest height. The influencer (S1) looks directly into the lens, speaking with an enthusiastic and helpful tone, using small hand gestures to emphasize her points. She says: <d>[English] The best part is that you can play high-end titles like Neon Rift on Jio Cloud PC</d>
+
+[Shot 2] At 00:04.286, the camera cuts to a slightly different medium shot, still locked off. She continues her explanation, leaning in closer to the camera to create a sense of intimacy and accessibility, her eyes bright. She says: <d>[English] without needing to invest in expensive hi-fi gaming PCs. And there's a huge library of other titles to explore on Jio Games!</d> She holds a friendly, inviting smile as the shot ends.
+
+overall_soundscape: Low-frequency hum of a PC cooling fan, the subtle rustle of her cotton clothing as she gestures, and a clean room tone.
+
+non_diegetic_music: A subtle electronic underscore with a steady, mid-tempo synth pluck and a soft bass pulse.
+
+=== Scene 4 of 4 ===
+integrated_multimodal_description: A 10-second, 2-shot sequence shot on a smartphone, 24mm lens, vertical 9:16, with a clean honest phone grade. The lighting is a mix of soft window daylight and vibrant purple and cyan LED strips from the PC setup, creating a punchy gaming aesthetic with a shallow depth of field. A 23-year-old Indian female gaming influencer (S1) with a matte skin finish and soft highlights on her cheekbones is in her bedroom; behind her is a shelf of game titles and a high-end desktop PC.
+
+[Shot 1] The camera holds a static shot, locked off, a medium frame at chest height. Continuing her enthusiastic tone from the previous scene, the influencer (S1) looks directly into the lens with a friendly smile. She gestures with both hands, opening them wide before bringing her right index finger down to point emphatically toward the bottom of the frame. She says: <d>[English] Now, I want you all to see my high-score run and that epic boss battle!</d>
+
+[Shot 2] At 00:06.667, the camera cuts to a slightly tighter medium shot, still locked off. She maintains her friendly smile, continuing to point downwards toward the description area. She says: <d>[English] Just click the Jio Games link in the description below to watch it. <scenetrans></d> See you there!</d> As she finishes speaking, she brings her hand up to give a cheerful wave and a thumbs-up to the camera.
+
+overall_soundscape: Low-frequency hum of a PC cooling fan, the subtle rustle of her cotton clothing as she points and waves, and a clean room tone.
+
+non_diegetic_music: A subtle electronic underscore with a steady, mid-tempo synth pluck and a soft bass pulse, maintaining a consistent volume throughout.
